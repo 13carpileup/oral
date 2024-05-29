@@ -27,13 +27,6 @@ window.onload = function(){
   convertBtn.addEventListener('click', function () {
     let voices = window.speechSynthesis.getVoices()
 
-
-    for (let k = 0; k < 2000; k++) {
-      if (voices[k].lang=="es") {
-        console.log(k);
-      }
-    }
-
     let vo = 166;
     console.log(voices[vo])
     
